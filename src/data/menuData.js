@@ -195,22 +195,6 @@ export const products = [
     recipe:
       "دم‌آوری اسپیشیالیتی با روش کمکس، دانه قهوه عربیکا به همراه کمی آجیل",
   },
-  {
-    id: "v60",
-    categoryId: "hot-bar",
-    name: "وی ۶۰",
-    price: "۳۸۰",
-    image: "/products/v60.jpg",
-    recipe: "قهوه دم‌آور شده با V60، روشی حرفه‌ای برای استخراج طعم ناب",
-  },
-  {
-    id: "syphon",
-    categoryId: "hot-bar",
-    name: "سایفون",
-    price: "۳۸۰",
-    image: "/products/syphon.jpg",
-    recipe: "دم‌آوری خاص با دستگاه سایفون، تجربه‌ای بصری و طعمی فوق‌العاده",
-  },
 
   // ═══════════════════════════════════════════════
   //  🧊 بار سرد بر پایه قهوه
@@ -431,7 +415,7 @@ export const products = [
     id: "food-chicken-strips",
     categoryId: "fast-food",
     name: " چیکن استیک",
-    price: "۵۸۰",
+    price: "۸۵۰",
     image: "/products/food-strips.jpg",
     recipe: "نوارهای مرغ سوخاری کریسپی با سس مخصوص و سیب زمینی سرخ شده",
   },
@@ -444,7 +428,32 @@ export const products = [
     image: "/products/food-burger.jpg",
     recipe: "برگر گوشت گاو تازه گریل ذغالی، پنیر چدار، کاهو، گوجه و سس ویژه",
   },
-
+  {
+    id: "food-tom",
+    categoryId: "fast-food",
+    name: " استیک تام و جری",
+    price: "۱۹۰۰",
+    image: "/products/food-tom.jpg",
+    recipe:
+      " استیک گوشت گوساله با سس قارچ و سبزیچات تازه، سرو شده با سیب زمینی سرخ کرده",
+  },
+  {
+    id: "french-frise",
+    categoryId: "fast-food",
+    name: " سیب زمینی سرخ کرده",
+    price: "۳۵۰",
+    image: "/products/french-frise.png",
+    recipe: " سیب زمینی سرخ کرده با نمک و ادویه مخصوص، سرو شده با سس کچاپ  ",
+  },
+  {
+    id: "sib-tanori",
+    categoryId: "fast-food",
+    name: "سیب زمینی تنوری",
+    price: "۴۵۰",
+    image: "/products/sib-tnori.png",
+    recipe:
+      " سیب زمینی تنوری با ادویه‌های مخصوص و پنیر پیتزا، سرو شده با روش مخصوص",
+  },
 
   // ═══════════════════════════════════════════════
   //  💨 قلیان
@@ -455,7 +464,7 @@ export const products = [
     id: "hookah-double-apple",
     categoryId: "hookah",
     name: "قلیان دو سیب",
-    price: "۴۵۰",
+    price: "۶۰۰",
     image: "/products/hookah-double-apple.jpg",
     recipe: "تنباکوی دو سیب اصیل، طعم کلاسیک و محبوب با عطری گرم و دلنشین",
   },
@@ -463,7 +472,7 @@ export const products = [
     id: "hookah-peach",
     categoryId: "hookah",
     name: "قلیان هندوانه یخ",
-    price: "۴۵۰",
+    price: "۶۰۰",
     image: "/products/hookah-peach.jpg",
     recipe: "تنباکوی هلو با عطر شیرین و ملایم، انتخابی دلپذیر برای تازه‌کارها",
   },
@@ -471,7 +480,7 @@ export const products = [
     id: "hookah-orange",
     categoryId: "hookah",
     name: "قلیان شب های مسکو",
-    price: "۴۵۰",
+    price: "۶۰۰",
     image: "/products/hookah-orange.jpg",
     recipe: "تنباکوی پرتقال با عطر تازه مرکبات، سرحال‌کننده و پرطراوت",
   },
@@ -479,7 +488,7 @@ export const products = [
     id: "hookah-lemon",
     categoryId: "hookah",
     name: "قلیان آدامس دارچین",
-    price: "۴۵۰",
+    price: "۶۰۰",
     image: "/products/hookah-lemon.jpg",
     recipe: "تنباکوی لیمو با طعم ترش و خنک، انتخابی متفاوت برای کام لطیف",
   },
@@ -487,7 +496,7 @@ export const products = [
     id: "hookah-grape",
     categoryId: "hookah",
     name: "قلیان تمشک بستنی",
-    price: "۴۵۰",
+    price: "۶۰۰",
     image: "/products/hookah-grape.jpg",
     recipe: "تنباکوی انگور با عطر شیرین و اصیل، طعمی کلاسیک و همیشگی",
   },
@@ -495,7 +504,7 @@ export const products = [
     id: "hookah-mint",
     categoryId: "hookah",
     name: "قلیان لاو",
-    price: "۴۵۰",
+    price: "۶۰۰",
     image: "/products/hookah-mint.jpg",
     recipe: "تنباکوی نعناع خنک و باطراوت، ایده‌آل برای عاشقان طعم‌های سبک",
   },
