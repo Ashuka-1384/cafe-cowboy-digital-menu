@@ -1,0 +1,72 @@
+/* ============================================================
+   💀 اسکلت بارگذاری
+   ============================================================ */
+
+.skeleton-card {
+  display: flex;
+  gap: var(--space-md);
+  padding: var(--space-md);
+  background: linear-gradient(
+    135deg,
+    rgba(46, 31, 20, 0.4) 0%,
+    rgba(26, 21, 18, 0.5) 100%
+  );
+  border: 1px solid rgba(184, 134, 11, 0.12);
+  border-radius: var(--radius-md);
+  min-height: 152px;
+}
+
+.skeleton-image {
+  flex-shrink: 0;
+  width: 120px;
+  height: 120px;
+  border-radius: var(--radius-sm);
+  background: linear-gradient(
+    90deg,
+    rgba(61, 40, 23, 0.3) 25%,
+    rgba(92, 58, 33, 0.4) 50%,
+    rgba(61, 40, 23, 0.3) 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.8s ease-in-out infinite;
+}
+
+.skeleton-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 8px;
+}
+
+.skeleton-line {
+  height: 12px;
+  border-radius: 2px;
+  background: linear-gradient(
+    90deg,
+    rgba(61, 40, 23, 0.25) 25%,
+    rgba(92, 58, 33, 0.35) 50%,
+    rgba(61, 40, 23, 0.25) 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.8s ease-in-out infinite;
+}
+
+.skeleton-line.title { width: 65%; height: 18px; }
+.skeleton-line.price { width: 45%; height: 22px; margin-top: 6px; }
+.skeleton-line.recipe { width: 100%; height: 10px; }
+.skeleton-line.recipe.short { width: 70%; }
+
+@media (min-width: 375px) {
+  .skeleton-image { width: 130px; height: 130px; }
+}
+
+@media (min-width: 425px) {
+  .skeleton-image { width: 145px; height: 145px; }
+  .skeleton-card { padding: var(--space-lg); gap: var(--space-lg); }
+}
+
+@media (min-width: 768px) {
+  .skeleton-image { width: 180px; height: 180px; }
+  .skeleton-card { padding: var(--space-xl); min-height: 220px; }
+}
