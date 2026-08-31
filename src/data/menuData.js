@@ -465,7 +465,7 @@ export const products = [
     categoryId: "hookah",
     name: "قلیان دو سیب",
     price: "۶۰۰",
-    image: "/products/hookah-double-apple.jpg",
+    image: "/products/hookah.jpg",
     recipe: "تنباکوی دو سیب اصیل، طعم کلاسیک و محبوب با عطری گرم و دلنشین",
   },
   {
@@ -473,7 +473,7 @@ export const products = [
     categoryId: "hookah",
     name: "قلیان هندوانه یخ",
     price: "۶۰۰",
-    image: "/products/hookah-peach.jpg",
+    image: "/products/hookah.jpg",
     recipe: "تنباکوی هلو با عطر شیرین و ملایم، انتخابی دلپذیر برای تازه‌کارها",
   },
   {
@@ -481,7 +481,7 @@ export const products = [
     categoryId: "hookah",
     name: "قلیان شب های مسکو",
     price: "۶۰۰",
-    image: "/products/hookah-orange.jpg",
+    image: "/products/hookah.jpg",
     recipe: "تنباکوی پرتقال با عطر تازه مرکبات، سرحال‌کننده و پرطراوت",
   },
   {
@@ -489,7 +489,7 @@ export const products = [
     categoryId: "hookah",
     name: "قلیان آدامس دارچین",
     price: "۶۰۰",
-    image: "/products/hookah-lemon.jpg",
+    image: "/products/hookah.jpg",
     recipe: "تنباکوی لیمو با طعم ترش و خنک، انتخابی متفاوت برای کام لطیف",
   },
   {
@@ -497,7 +497,7 @@ export const products = [
     categoryId: "hookah",
     name: "قلیان تمشک بستنی",
     price: "۶۰۰",
-    image: "/products/hookah-grape.jpg",
+    image: "/products/hookah.jpg",
     recipe: "تنباکوی انگور با عطر شیرین و اصیل، طعمی کلاسیک و همیشگی",
   },
   {
@@ -505,7 +505,7 @@ export const products = [
     categoryId: "hookah",
     name: "قلیان لاو",
     price: "۶۰۰",
-    image: "/products/hookah-mint.jpg",
+    image: "/products/hookah.jpg",
     recipe: "تنباکوی نعناع خنک و باطراوت، ایده‌آل برای عاشقان طعم‌های سبک",
   },
 ];
