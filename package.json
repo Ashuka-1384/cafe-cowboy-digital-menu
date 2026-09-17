@@ -1,17 +1,15 @@
-{
-  "name": "western-menu",
-  "private": true,
-  "version": "1.0.0",
-  "type": "module",
-  "scripts": {
-    "start": "vite",
+
+  "me": "western-menu",
+vate": true,
+  "vsion": "1.0.0",
+ e": "module",
+  "scripts": {": "vite",
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "vw": "vite preview"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+   : "^18.2.0",
+    "ct-dom": "^18.2.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.1",
